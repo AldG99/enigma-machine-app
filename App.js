@@ -1,20 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { SafeAreaView, StatusBar } from 'react-native';
+import EnigmaScreen from './app/screens/EnigmaScreen';
+import { colors } from './app/constants/colors';
+import { globalStyles } from './app/styles/globalStyles';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={globalStyles.safeArea}>
+      <StatusBar backgroundColor={colors.background} barStyle="dark-content" />
+      <EnigmaScreen />
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
