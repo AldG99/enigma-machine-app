@@ -1,28 +1,33 @@
 {
   "expo": {
-    "name": "enigma-machine-app",
-    "slug": "enigma-machine-app",
+    "name": "Enigma Machine",
+    "slug": "enigma-machine-simulator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.enigmamachine"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yourcompany.enigmamachine"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Un simulador de la máquina Enigma que permite cifrar y descifrar mensajes tal como lo hacía el dispositivo histórico utilizado durante la Segunda Guerra Mundial.",
+    "primaryColor": "#007bff",
+    "githubUrl": "https://https://github.com/AldG99/enigma-machine-app"
   }
 }

@@ -35,8 +35,8 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-# utils
-**/app/utils/enigmaLogic.js
+# services
+**/app/services/enigmaService.js
 
-# constants
-**/app/constants/enigmaConfig.js
+# context
+**/app/context/EnigmaContext.js
