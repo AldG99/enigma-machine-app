@@ -28,6 +28,7 @@
     },
     "description": "Un simulador de la máquina Enigma que permite cifrar y descifrar mensajes tal como lo hacía el dispositivo histórico utilizado durante la Segunda Guerra Mundial.",
     "primaryColor": "#007bff",
-    "githubUrl": "https://https://github.com/AldG99/enigma-machine-app"
+    "githubUrl": "https://github.com/AldG99/enigma-machine-app",
+    "newArchEnabled": true
   }
 }
